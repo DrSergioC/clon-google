@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+
+    width: 100vw;
+    height: 100vh;
+
+}
+
+header {
+    display: flex;
+    justify-content: right;
+    padding-right: 15px;
+
+
+}
+
+.barrahijo {
+    margin-top: 10px;
+    display: flex;
+    justify-content: right;
+
+
+}
+
+.hijob1 {
+    margin-right: 5px;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+
+.hijob2 {
+    margin-left: 5px;
+    margin-right: 5px;
+    list-style: none;
+
+
+}
+
+.hijob3 {
+    margin-left: 10px;
+    margin-right: 10px;
+    list-style: none;
+}
+
+.hijob4 {
+    margin-left: 5px;
+    margin-right: 10px;
+    list-style: none;
+}
+
+
+main {
+
+
+    height: 868px;
+
+}
+
+.medio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+
+.logoG {
+
+    margin-top: 50px;
+    margin-bottom: 15px;
+
+}
+
+.search {
+    width: 40%;
+    margin-bottom: 30px;
+}
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.boton1 {
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.boton2 {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+footer {
+
+    display: flex;
+    height: 30px;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 10px;
+}
+
+.footer-izquierdo {
+    font-size: smaller;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    width: 50%;
+
+
+}
+
+.footer-derecho {
+
+    display: flex;
+    justify-content: right;
+    width: 50%;
+    font-size: smaller;
+    margin: 25px;
+
+}
+
+.fi1 {
+
+    margin: 5px;
+    list-style: none;
+
+}
+
+.fi2 {
+
+    margin: 5px;
+    list-style: none;
+}
+
+.fi3 {
+    margin: 5px;
+    list-style: none;
+
+}
+
+.fi4 {
+    margin: 5px;
+    list-style: none;
+}
+
+
+.fd1 {
+    margin: 5px;
+    list-style: none;
+
+}
+
+.fd2 {
+
+    margin: 5px;
+    list-style: none;
+
+
+}
+
+.fd3 {
+    margin: 5px;
+    list-style: none;
+}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+
+    .barrahijo {
+        margin-top: 10px;
+        display: flex;
+        justify-content: right;
+        font-size: small;
+
+    }
+
+    .search {
+        width: 90%;
+    }
+
+  
+
+    .botones {
+
+        font-size: small;
+
+    }
+
+    .footer-izquierdo {
+
+        font-size: xx-small;
+        display: flex;
+        justify-content: left;
+        margin: 0;
+        
+
+
+    }
+
+    .footer-derecho {
+
+        font-size: xx-small;
+        display: flex;
+        justify-content: right;
+        margin: 0;
+        
+
+    }
+
+
+}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {}
